@@ -1,7 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #fff0e8;
+    --text-color: #021401;
+    --primary-color: #cc6229;
+}
+  
 body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
 }
-label{
-    display: block;
-    padding-bottom: 1rem;
+
+a {
+    text-decoration: none;
 }
+  
+li {
+    list-style: none;
+}
+h1{
+    text-align: center;
+    margin: 2rem 2rem 3rem 2rem;
+}
+
+.input-label {
+    display: block;
+    font-size: larger;
+    margin: 2rem 0px;
+    font-weight: 600;
+}
+  
+.input {
+    font-size: large;
+    display: block;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin:  0.5rem auto 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 325px;
+}
+  
+.btn-check {
+    background: var(--text-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: medium;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+  }
+  
+  .output {
+    font-size: x-large;
+    font-weight: 600;
+    margin: 2rem 0;
+  }

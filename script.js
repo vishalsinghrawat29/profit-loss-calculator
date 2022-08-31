@@ -20,6 +20,7 @@ function calculateProfitAndLoss(intial, qunatity, current){
     }else{
         // the rest of the logic
         showOutput(`No pain no gain and no gain no pain`) ;
+        outputBox.style.color = 'black';
     }
 }
 
