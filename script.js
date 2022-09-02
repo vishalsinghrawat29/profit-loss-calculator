@@ -32,7 +32,11 @@ function submitHandler(){
     var ip = Number(intialPrice.value);
     var qty = Number(stocksQuantity.value);
     var curr = Number(currentPrice.value);
-    calculateProfitAndLoss(ip, qty, curr);
+    if (ip>=0 && qty> 0 && curr>= 0) {
+        calculateProfitAndLoss(ip,qty,curr);
+        } else {
+          alert("Please enter valid value");
+        }
 }
 
 submitBtn.addEventListener("click", submitHandler);
