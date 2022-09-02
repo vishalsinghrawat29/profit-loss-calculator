@@ -34,9 +34,9 @@ function submitHandler(){
     var curr = Number(currentPrice.value);
     if (ip>=0 && qty> 0 && curr>= 0) {
         calculateProfitAndLoss(ip,qty,curr);
-        } else {
+    } else {
           alert("Please enter valid value");
-        }
+    }
 }
 
 submitBtn.addEventListener("click", submitHandler);
