@@ -7,9 +7,9 @@
 }
 
 :root{
-    --background-color: #fff0e8;
-    --text-color: #021401;
-    --primary-color: #cc6229;
+    --background-color: #F7F9FC;
+    --text-color: #1A2144;
+    --primary-color: #0470DE;
 }
   
 body{
@@ -31,20 +31,22 @@ h1{
     margin: 2rem 2rem 3rem 2rem;
 }
 
+
 .input-label {
     display: block;
-    font-size: larger;
-    margin: 2rem 0px;
-    font-weight: 600;
+    font-size: large;
+    margin: 2.5rem 0.2rem;
+    font-weight: 500;
 }
   
 .input {
-    font-size: large;
+    font-size: medium;
     display: block;
     outline: #fff;
-    padding: 0.6rem 1rem;
-    margin:  0.5rem auto 1rem;
-    border: 1px solid var(--primary-color);
+    padding: 0.6rem ;
+    margin:  0.2rem auto 1rem;
+    background: transparent;
+    border: 0.5px solid var(--primary-color);
     border-radius: 0.5rem;
     width: 100%;
     max-width: 325px;
@@ -66,5 +68,43 @@ h1{
   .output {
     font-size: x-large;
     font-weight: 600;
-    margin: 2rem 0;
+    margin: 2rem 1rem;
   }
+
+  .footer{
+    padding: 1rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footer h4{
+   margin-bottom: 0.2rem; 
+   color: var(--text-color);
+   font-weight: 400;
+   font-size: 0.8rem;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+   font-size: 0.8rem;
+ }
+ .list-non-bullet{
+    list-style: none;
+    padding: 0;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem ;
+}
+.link{
+    color: var(--text-color) !important;
+    font-weight: 400 !important;
+}
+.profitBg{
+    background-color: #0FC28B;
+}
+
+.lossBg{
+    background-color: #FF395E;
+}
